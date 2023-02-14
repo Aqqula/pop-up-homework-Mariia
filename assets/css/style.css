@@ -1,0 +1,37 @@
+body {
+  margin: 2rem;
+  font-size: 1.3rem;
+}
+#main {
+  position: relative;
+}
+#btn {
+    margin: auto;
+    color: whitesmoke;
+    background-color: palevioletred;
+    font-size: 2rem;
+    border: 5px solid whitesmoke;
+    border-radius: 50px;
+    padding: 1rem;
+}
+
+.popUp {
+  display: flex;
+  position: absolute;
+  height: 40rem;
+  width: 90rem;
+  background-color: palevioletred;
+  top: 100px;
+  left: 100px;
+  border-radius: 50px;
+}
+
+.popUp button {
+  margin: auto;
+  color: palevioletred;
+  background-color: whitesmoke;
+  font-size: 7rem;
+  border: 5px solid rgb(185, 172, 172);
+  border-radius: 50px;
+  padding: 1rem;
+}
